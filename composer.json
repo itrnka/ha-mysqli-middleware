@@ -1,0 +1,30 @@
+{
+    "name": "itrnka/ha-mysqli-middleware",
+    "description": "MySQLi middleware for ha framework. Provides access to MySQL databases. Query builder is also included.",
+    "type": "library",
+    "keywords": [
+        "ha",
+        "mysql",
+        "mysqli",
+        "query builder"
+    ],
+    "homepage": "https://github.com/itrnka/ha-mysqli-middleware",
+    "time": "2017-11-15",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "itrnka",
+            "email": "tic@tic.sk",
+            "role": "Developer"
+        }
+    ],
+    "support": {},
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ha\\Middleware\\RDBMS\\MySQLi\\": "src/MySQLi"
+        }
+    }
+}
