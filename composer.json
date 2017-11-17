@@ -20,7 +20,8 @@
     ],
     "support": {},
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "itrnka/ha-framework": "^1.5"
     },
     "autoload": {
         "psr-4": {
