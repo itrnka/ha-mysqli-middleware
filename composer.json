@@ -3,6 +3,7 @@
     "description": "MySQLi middleware for ha framework. Provides access to MySQL databases. Query builder is also included.",
     "type": "library",
     "keywords": [
+        "ha-framework",
         "ha",
         "mysql",
         "mysqli",
